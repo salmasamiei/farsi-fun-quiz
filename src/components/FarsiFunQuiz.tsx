@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const words = [
   { farsi: "سلام", transliteration: "Salâm", meaning: "Bonjour", image: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Waving_hand.png" },
-  { farsi: "آب", transliteration: "Âb", meaning: "Eau", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Water_glass.png" },
-  { farsi: "نان", transliteration: "Nân", meaning: "Pain", image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flatbread.jpg" },
-  { farsi: "گربه", transliteration: "Gorbe", meaning: "Chat", image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" },
-  { farsi: "خداحافظ", transliteration: "Khodâ hâfez", meaning: "Au revoir", image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Waving_goodbye.png" },
+  { farsi: "آب", transliteration: "Âb", meaning: "Eau", image: "https://www.google.com/imgres?q=watter&imgurl=https%3A%2F%2Fwww.trifloridawatertreatment.com%2Fwp-content%2Fuploads%2F2018%2F07%2Fwatter.jpg&imgrefurl=https%3A%2F%2Fwww.trifloridawatertreatment.com%2Fhome%2Fwatter%2F&docid=o8j5vxMcZ6MvyM&tbnid=gEryk7icDCvHbM&vet=12ahUKEwiloKyWhLWOAxWPdaQEHWptIMsQM3oECFUQAA..i&w=440&h=635&hcb=2&ved=2ahUKEwiloKyWhLWOAxWPdaQEHWptIMsQM3oECFUQAA" },
+  { farsi: "نان", transliteration: "Nân", meaning: "Pain", image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnanebatool.com%2Fen%2Fthe-most-delicious-types-of-bread-in-iran%2F&psig=AOvVaw24Oo4GJjkOLX7bdJ9KLwn_&ust=1752330833739000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCID7j6mDtY4DFQAAAAAdAAAAABBH" },
+  { farsi: "گربه", transliteration: "Gorbe", meaning: "Chat", image: "https://thumbs.dreamstime.com/b/cute-cat-24854563.jpg?w=768" },
+  { farsi: "خداحافظ", transliteration: "Khodâ hâfez", meaning: "Au revoir", image: "https://www.google.com/imgres?q=say%20hello%20clipart%20greeting%20bye%20and%20hi&imgurl=https%3A%2F%2Fmedia.baamboozle.com%2Fuploads%2Fimages%2F208564%2F1632766064_46197.png&imgrefurl=https%3A%2F%2Fwww.baamboozle.com%2Fgame%2F1136713&docid=1MDnPXOOqrfrxM&tbnid=FZQyoydGSM1JvM&vet=12ahUKEwjP_KLohLWOAxUbTqQEHfAXJNoQM3oECHsQAA..i&w=800&h=652&hcb=2&ved=2ahUKEwjP_KLohLWOAxUbTqQEHfAXJNoQM3oECHsQAA" },
 ];
 
 export default function FarsiFunQuiz() {
