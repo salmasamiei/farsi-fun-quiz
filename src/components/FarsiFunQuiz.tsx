@@ -3,18 +3,25 @@ import { motion } from "framer-motion";
 
 const categories = {
   common: [
-    { farsi: "دوچرخه", transliteration: "docharkhe", meaning: "Vélo", image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bicycle_icon.png" },
-    { farsi: "بستنی", transliteration: "bastani", meaning: "Glace", image: "https://upload.wikimedia.org/wikipedia/commons/1/15/Ice_cream_cone_icon.png" },
-    { farsi: "آب", transliteration: "âb", meaning: "Eau", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Water_glass.png" },
-    { farsi: "نان", transliteration: "nân", meaning: "Pain", image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flatbread.jpg" }
+    { farsi: "پنیر", transliteration: "panir", meaning: "Fromage", image: "https://cdn-icons-png.flaticon.com/512/1046/1046752.png" },
+    { farsi: "صبحانه", transliteration: "sobhâne", meaning: "Petit-déjeuner", image: "https://cdn-icons-png.flaticon.com/512/1905/1905368.png" },
+    { farsi: "ناهار", transliteration: "nâhâr", meaning: "Déjeuner", image: "https://cdn-icons-png.flaticon.com/512/590/590836.png" },
+    { farsi: "شام", transliteration: "shâm", meaning: "Dîner", image: "https://cdn-icons-png.flaticon.com/512/3075/3075977.png" },
+    { farsi: "خودکار", transliteration: "khodkâr", meaning: "Stylo", image: "https://cdn-icons-png.flaticon.com/512/3043/3043903.png" },
+    { farsi: "مداد", transliteration: "medâd", meaning: "Crayon", image: "https://cdn-icons-png.flaticon.com/512/2620/2620983.png" },
+    { farsi: "کاغذ", transliteration: "kâghaz", meaning: "Papier", image: "https://cdn-icons-png.flaticon.com/512/2991/2991159.png" },
+    { farsi: "دوچرخه", transliteration: "docharkhe", meaning: "Vélo", image: "https://cdn-icons-png.flaticon.com/512/854/854894.png" },
+    { farsi: "بستنی", transliteration: "bastani", meaning: "Glace", image: "https://cdn-icons-png.flaticon.com/512/685/685352.png" },
+    { farsi: "آب", transliteration: "âb", meaning: "Eau", image: "https://cdn-icons-png.flaticon.com/512/2917/2917992.png" },
+    { farsi: "نان", transliteration: "nân", meaning: "Pain", image: "https://cdn-icons-png.flaticon.com/512/1046/1046750.png" }
   ],
   persianRoot: [
-    { farsi: "بازار", transliteration: "bâzâr", meaning: "Bazar", image: "https://upload.wikimedia.org/wikipedia/commons/8/89/Bazaar_icon.png" },
-    { farsi: "الگوریتم", transliteration: "algoritm", meaning: "Algorithme", image: "https://upload.wikimedia.org/wikipedia/commons/6/60/Algorithm_icon.png" }
+    { farsi: "بازار", transliteration: "bâzâr", meaning: "Bazar", image: "https://cdn-icons-png.flaticon.com/512/190/190411.png" },
+    { farsi: "الگوریتم", transliteration: "algoritm", meaning: "Algorithme", image: "https://cdn-icons-png.flaticon.com/512/2920/2920244.png" }
   ],
   cute: [
-    { farsi: "گربه", transliteration: "gorbe", meaning: "Chat", image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" },
-    { farsi: "عروسک", transliteration: "aroosak", meaning: "Poupée", image: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Doll_icon.png" }
+    { farsi: "گربه", transliteration: "gorbe", meaning: "Chat", image: "https://cdn-icons-png.flaticon.com/512/616/616408.png" },
+    { farsi: "عروسک", transliteration: "aroosak", meaning: "Poupée", image: "https://cdn-icons-png.flaticon.com/512/1571/1571019.png" }
   ]
 };
 
@@ -54,7 +61,7 @@ export default function FarsiFunQuiz() {
     return (
       <div className="max-w-md mx-auto mt-10 p-4 text-center space-y-4">
         <h2 className="text-2xl font-bold">Choisis une catégorie :</h2>
-        <button onClick={() => setCategory("common")} className="bg-blue-500 text-white px-4 py-2 rounded">Mots courants</button>
+        <button onClick={() => setCategory("common" )} className="bg-blue-500 text-white px-4 py-2 rounded">Mots courants</button>
         <button onClick={() => setCategory("persianRoot")} className="bg-green-500 text-white px-4 py-2 rounded">Mots d’origine perse</button>
         <button onClick={() => setCategory("cute")} className="bg-pink-500 text-white px-4 py-2 rounded">Mots mignons</button>
         <button onClick={startQuiz} className="bg-purple-600 text-white px-4 py-2 rounded">🎯 Lancer le quiz aléatoire</button>
